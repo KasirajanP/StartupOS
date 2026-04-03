@@ -1,0 +1,90 @@
+
+> startupos-frontend@0.1.0 dev
+> vite --host 127.0.0.1
+
+
+  [32m[1mVITE[22m v6.4.1[39m  [2mready in [0m[1m263[22m[2m[0m ms[22m
+
+  [32m➜[39m  [1mLocal[22m:   [36mhttp://127.0.0.1:[1m5173[22m/[39m
+[2m7:03:33 pm[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/context/AuthContext.jsx, /src/styles/index.css[22m
+[2m7:03:33 pm[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/pages/RegisterOrganizationPage.jsx, /src/styles/index.css[22m
+[2m7:03:33 pm[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/components/Sidebar.jsx, /src/styles/index.css[22m
+[2m7:03:33 pm[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [33mhmr invalidate [39m[2m/src/context/AuthContext.jsx[22m Could not Fast Refresh ("useAuth" export is incompatible). Learn more at https://github.com/vitejs/vite-plugin-react/tree/main/packages/plugin-react#consistent-components-exports
+[2m7:03:33 pm[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2msrc/context/AuthContext.jsx[22m
+[2m7:17:04 pm[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/styles/index.css, /src/pages/TasksBoardPage.jsx[22m
+[2m7:17:04 pm[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/pages/CreateRequestPage.jsx, /src/styles/index.css[22m
+[2m7:17:04 pm[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/pages/RequestsListPage.jsx, /src/styles/index.css[22m
+[2m7:17:04 pm[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/pages/RequestDetailsPage.jsx, /src/styles/index.css[22m
+[2m7:17:04 pm[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/pages/ManageUsersPage.jsx, /src/styles/index.css[22m
+[2m7:17:04 pm[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/pages/ManageRolesPage.jsx, /src/styles/index.css[22m
+[2m7:17:04 pm[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/pages/TasksBoardPage.jsx, /src/styles/index.css[22m
+[2m7:21:20 pm[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/styles/index.css, /src/layouts/AppLayout.jsx, /src/pages/RequestDetailsPage.jsx, /src/pages/TasksBoardPage.jsx, /src/pages/RequestsListPage.jsx, /src/pages/CreateRequestPage.jsx, /src/pages/ManageUsersPage.jsx, /src/pages/ManageRolesPage.jsx, /src/pages/DashboardPage.jsx[22m
+[2m7:21:20 pm[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/styles/index.css, /src/pages/RequestDetailsPage.jsx, /src/pages/RequestsListPage.jsx, /src/pages/CreateRequestPage.jsx[22m
+[2m7:21:20 pm[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/components/NotificationPanel.jsx, /src/styles/index.css[22m
+[2m7:33:14 pm[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/styles/index.css, /src/pages/RequestDetailsPage.jsx, /src/pages/RequestsListPage.jsx, /src/pages/CreateRequestPage.jsx, /src/pages/ManageUsersPage.jsx, /src/pages/TasksBoardPage.jsx[22m
+[2m7:33:27 pm[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/layouts/AppLayout.jsx, /src/styles/index.css[22m
+[2m7:34:04 pm[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/pages/RequestsListPage.jsx, /src/styles/index.css[22m
+[2m7:34:24 pm[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/pages/CreateRequestPage.jsx, /src/styles/index.css[22m
+[2m7:35:20 pm[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/pages/RequestDetailsPage.jsx, /src/styles/index.css[22m
+[2m7:36:03 pm[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/pages/TasksBoardPage.jsx, /src/styles/index.css[22m
+[2m7:36:42 pm[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/pages/ManageUsersPage.jsx, /src/styles/index.css[22m
+[2m7:37:26 pm[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/pages/ManageRolesPage.jsx, /src/styles/index.css[22m
+[2m7:37:34 pm[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/components/DataTable.jsx, /src/styles/index.css[22m
+[2m7:37:48 pm[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/layouts/AppLayout.jsx, /src/styles/index.css[22m
+[2m7:37:48 pm[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/components/NotificationPanel.jsx, /src/styles/index.css[22m
+[2m7:38:12 pm[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/pages/DashboardPage.jsx, /src/styles/index.css[22m
+[2m7:38:21 pm[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/pages/DashboardPage.jsx, /src/styles/index.css[22m
+[2m7:55:43 pm[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/context/AuthContext.jsx, /src/styles/index.css[22m
+[2m7:55:43 pm[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/pages/LoginPage.jsx, /src/styles/index.css[22m
+[2m7:55:43 pm[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/pages/RegisterOrganizationPage.jsx, /src/styles/index.css[22m
+[2m7:55:43 pm[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [33mhmr invalidate [39m[2m/src/context/AuthContext.jsx[22m Could not Fast Refresh ("useAuth" export is incompatible). Learn more at https://github.com/vitejs/vite-plugin-react/tree/main/packages/plugin-react#consistent-components-exports
+[2m7:55:43 pm[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2msrc/context/AuthContext.jsx[22m
+[2m8:03:32 pm[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/pages/RegisterOrganizationPage.jsx, /src/styles/index.css[22m
+[2m8:04:18 pm[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/components/ActivityTimeline.jsx, /src/styles/index.css[22m
+[2m8:04:18 pm[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/App.jsx, /src/styles/index.css[22m
+[2m8:04:25 pm[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/pages/DashboardPage.jsx, /src/styles/index.css[22m
+[2m8:13:07 pm[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/styles/index.css, /src/pages/TasksBoardPage.jsx[22m
+[2m8:13:07 pm[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/components/KanbanBoard.jsx, /src/styles/index.css[22m
+[2m8:13:07 pm[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/pages/TasksBoardPage.jsx, /src/styles/index.css[22m
+[2m8:21:16 pm[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/components/Navbar.jsx, /src/styles/index.css[22m
+[2m8:21:16 pm[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/layouts/AppLayout.jsx, /src/styles/index.css[22m
+[2m8:21:16 pm[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/components/NotificationPanel.jsx, /src/styles/index.css[22m
+[2m8:21:54 pm[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/components/KanbanBoard.jsx, /src/styles/index.css[22m
+[2m8:24:14 pm[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/pages/TasksBoardPage.jsx, /src/styles/index.css[22m
+[2m8:24:34 pm[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/pages/TasksBoardPage.jsx, /src/styles/index.css[22m
+[2m8:24:39 pm[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/pages/TasksBoardPage.jsx, /src/styles/index.css[22m
+[2m8:47:56 pm[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/context/AuthContext.jsx, /src/styles/index.css[22m
+[2m8:47:56 pm[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/pages/LoginPage.jsx, /src/styles/index.css[22m
+[2m8:47:56 pm[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/components/KanbanBoard.jsx, /src/styles/index.css[22m
+[2m8:47:56 pm[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/App.jsx, /src/styles/index.css[22m
+[2m8:47:56 pm[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/pages/TasksBoardPage.jsx, /src/styles/index.css[22m
+[2m8:47:56 pm[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/pages/RegisterOrganizationPage.jsx[22m
+[2m8:47:57 pm[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [33mhmr invalidate [39m[2m/src/context/AuthContext.jsx[22m Could not Fast Refresh ("useAuth" export is incompatible). Learn more at https://github.com/vitejs/vite-plugin-react/tree/main/packages/plugin-react#consistent-components-exports
+[2m8:47:57 pm[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2msrc/context/AuthContext.jsx[22m
+[2m10:08:46 pm[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/components/Sidebar.jsx, /src/styles/index.css[22m
+[2m10:08:46 pm[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/pages/LoginPage.jsx, /src/styles/index.css[22m
+[2m10:08:46 pm[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/styles/index.css, /src/pages/ActivityDetailsPage.jsx, /src/pages/DashboardPage.jsx[22m
+[2m10:08:46 pm[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/components/Navbar.jsx, /src/styles/index.css[22m
+[2m10:08:46 pm[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/pages/DashboardPage.jsx, /src/styles/index.css[22m
+[2m10:08:46 pm[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/pages/RequestsListPage.jsx, /src/styles/index.css[22m
+[2m10:09:23 pm[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/pages/RequestDetailsPage.jsx, /src/styles/index.css[22m
+[2m10:09:23 pm[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/pages/ManageUsersPage.jsx, /src/styles/index.css[22m
+[2m10:09:23 pm[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/pages/ManageRolesPage.jsx, /src/styles/index.css[22m
+[2m10:10:13 pm[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/pages/RegisterOrganizationPage.jsx, /src/styles/index.css[22m
+[2m10:10:13 pm[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/pages/CreateRequestPage.jsx, /src/styles/index.css[22m
+[2m10:10:13 pm[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/pages/TasksBoardPage.jsx, /src/styles/index.css[22m
+[2m10:10:13 pm[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/pages/ManageUsersPage.jsx, /src/styles/index.css[22m
+[2m10:10:13 pm[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/pages/ManageRolesPage.jsx, /src/styles/index.css[22m
+[2m10:13:16 pm[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/styles/index.css, /src/pages/TasksBoardPage.jsx[22m
+[2m10:13:16 pm[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/styles/index.css, /src/pages/ActivityDetailsPage.jsx, /src/pages/DashboardPage.jsx[22m
+[2m10:13:16 pm[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/pages/CreateRequestPage.jsx, /src/styles/index.css[22m
+[2m10:13:16 pm[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/pages/ManageUsersPage.jsx, /src/styles/index.css[22m
+[2m10:13:16 pm[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/pages/ManageRolesPage.jsx, /src/styles/index.css[22m
+[2m10:13:16 pm[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/pages/RegisterOrganizationPage.jsx, /src/styles/index.css[22m
+[2m10:13:16 pm[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/pages/DashboardPage.jsx, /src/styles/index.css[22m
+[2m10:13:52 pm[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/pages/ActivityDetailsPage.jsx, /src/styles/index.css[22m
+[2m10:14:54 pm[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/pages/TasksBoardPage.jsx, /src/styles/index.css[22m
+[2m10:16:20 pm[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/pages/CreateRequestPage.jsx, /src/styles/index.css[22m
+[2m10:16:20 pm[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/pages/RequestsListPage.jsx, /src/styles/index.css[22m
+[2m10:16:20 pm[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/pages/RequestDetailsPage.jsx, /src/styles/index.css[22m
+[2m10:16:46 pm[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/pages/RequestDetailsPage.jsx, /src/styles/index.css[22m

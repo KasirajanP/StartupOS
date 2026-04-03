@@ -1,0 +1,20 @@
+@import url("https://fonts.googleapis.com/css2?family=Manrope:wght@500;700;800&family=Poppins:wght@400;500;600;700&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  color: #111827;
+  background:
+    radial-gradient(circle at top left, rgba(219, 234, 254, 0.9), transparent 35%),
+    linear-gradient(135deg, #f8fafc 0%, #fff7ed 100%);
+}
+
+body {
+  @apply min-h-screen bg-fixed font-sans text-ink antialiased;
+}
+
+#root {
+  @apply min-h-screen;
+}
