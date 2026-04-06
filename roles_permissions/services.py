@@ -1,26 +1,28 @@
-from roles_permissions.constants import DEFAULT_PERMISSIONS
+from roles_permissions.constants import PERMISSION_CATALOG
 from roles_permissions.models import Permission
 
 
 def seed_default_permissions():
     created_codes = []
-    updated_codes = []
+    skipped_codes = []
 
-    for permission_data in DEFAULT_PERMISSIONS:
-        permission, created = Permission.objects.update_or_create(
-            code=permission_data["code"],
-            defaults={
-                "module": permission_data["module"],
-                "description": permission_data["description"],
-            },
-        )
-        if created:
-            created_codes.append(permission.code)
-        else:
-            updated_codes.append(permission.code)
+    for module, permissions in PERMISSION_CATALOG.items():
+        for code, description in permissions.items():
+            permission, created = Permission.objects.get_or_create(
+                code=code,
+                defaults={
+                    "module": module,
+                    "description": description,
+                },
+            )
+            if created:
+                created_codes.append(permission.code)
+            else:
+                skipped_codes.append(permission.code)
 
     return {
         "created": created_codes,
-        "updated": updated_codes,
-        "total": len(DEFAULT_PERMISSIONS),
+        "skipped": skipped_codes,
+        "updated": [],
+        "total": sum(len(permissions) for permissions in PERMISSION_CATALOG.values()),
     }

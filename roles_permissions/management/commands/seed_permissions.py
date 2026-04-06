@@ -11,4 +11,4 @@ class Command(BaseCommand):
         self.stdout.write(self.style.SUCCESS("Permission catalog synced successfully."))
         self.stdout.write(f"Total permissions: {result['total']}")
         self.stdout.write(f"Created: {', '.join(result['created']) if result['created'] else 'None'}")
-        self.stdout.write(f"Updated: {', '.join(result['updated']) if result['updated'] else 'None'}")
+        self.stdout.write(f"Skipped: {', '.join(result['skipped']) if result['skipped'] else 'None'}")

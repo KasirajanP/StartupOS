@@ -1,32 +1,18 @@
-DEFAULT_PERMISSIONS = [
-    {
-        "code": "create_request",
-        "module": "requests",
-        "description": "Create and update organization requests.",
+PERMISSION_CATALOG = {
+    "requests": {
+        "create_request": "Create and update organization requests.",
+        "approve_request": "Approve or reject organization requests.",
     },
-    {
-        "code": "approve_request",
-        "module": "requests",
-        "description": "Approve or reject organization requests.",
+    "tasks": {
+        "assign_task": "Create projects, assign tasks, and manage task workflow.",
     },
-    {
-        "code": "assign_task",
-        "module": "tasks",
-        "description": "Create projects, assign tasks, and manage task workflow.",
+    "accounts": {
+        "manage_users": "Create and manage organization users.",
     },
-    {
-        "code": "manage_users",
-        "module": "accounts",
-        "description": "Create and manage organization users.",
+    "roles_permissions": {
+        "manage_roles_permissions": "Create roles and assign permissions.",
     },
-    {
-        "code": "manage_roles_permissions",
-        "module": "roles_permissions",
-        "description": "Create roles and assign permissions.",
+    "dashboard": {
+        "view_dashboard": "Access the tenant dashboard and summary metrics.",
     },
-    {
-        "code": "view_dashboard",
-        "module": "dashboard",
-        "description": "Access the tenant dashboard and summary metrics.",
-    },
-]
+}

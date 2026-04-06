@@ -1,7 +1,9 @@
 from django.contrib.auth import get_user_model
+from django.test import override_settings
 from rest_framework import status
 from rest_framework.test import APITestCase
 
+from accounts.bootstrap import bootstrap_admin_from_settings
 from organizations.models import Organization
 
 User = get_user_model()
@@ -125,3 +127,36 @@ class AccountsAPITests(APITestCase):
 
         self.assertEqual(response.status_code, status.HTTP_400_BAD_REQUEST)
         self.assertIn("already belongs to another organization", response.data["owner_email"][0])
+
+    @override_settings(
+        BOOTSTRAP_ADMIN_ENABLED=True,
+        BOOTSTRAP_ADMIN_ORGANIZATION_NAME="Render Admin Org",
+        BOOTSTRAP_ADMIN_EMAIL="admin@startupos.com",
+        BOOTSTRAP_ADMIN_PASSWORD="supersecure123",
+        BOOTSTRAP_ADMIN_FIRST_NAME="Render",
+        BOOTSTRAP_ADMIN_LAST_NAME="Admin",
+    )
+    def test_bootstrap_admin_creates_superuser_and_organization(self):
+        result = bootstrap_admin_from_settings()
+
+        self.assertEqual(result["status"], "created")
+        user = User.objects.get(email="admin@startupos.com")
+        self.assertTrue(user.is_superuser)
+        self.assertTrue(user.is_staff)
+        self.assertTrue(user.is_owner)
+        self.assertEqual(user.organization.name, "Render Admin Org")
+
+    @override_settings(
+        BOOTSTRAP_ADMIN_ENABLED=True,
+        BOOTSTRAP_ADMIN_ORGANIZATION_NAME="Render Admin Org",
+        BOOTSTRAP_ADMIN_EMAIL="admin@startupos.com",
+        BOOTSTRAP_ADMIN_PASSWORD="supersecure123",
+    )
+    def test_bootstrap_admin_is_idempotent(self):
+        first = bootstrap_admin_from_settings()
+        second = bootstrap_admin_from_settings()
+
+        self.assertEqual(first["status"], "created")
+        self.assertEqual(second["status"], "skipped")
+        self.assertEqual(second["reason"], "already_configured")
+        self.assertEqual(User.objects.filter(email="admin@startupos.com").count(), 1)

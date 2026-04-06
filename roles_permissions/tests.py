@@ -63,3 +63,15 @@ class RolesPermissionsAPITests(APITestCase):
                 permission=permission,
             ).exists()
         )
+
+    def test_seed_default_permissions_skips_existing_permission_codes(self):
+        permission = Permission.objects.get(code="manage_users")
+        permission.description = "Keep this custom description"
+        permission.save(update_fields=["description"])
+
+        result = seed_default_permissions()
+
+        permission.refresh_from_db()
+        self.assertEqual(permission.description, "Keep this custom description")
+        self.assertIn("manage_users", result["skipped"])
+        self.assertNotIn("manage_users", result["created"])
